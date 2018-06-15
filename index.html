@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="container">
+ <header><h1><strong>Totally Trivial Trivia!</strong></h1></header>
+ <div id="after-submit">
+  <p id="results"></p>
+ </div>
+  <form id="quiz" name="quiz">
+   <h3>1. Which character is nicknamed "The Mountain" in the HBO series Game of Thrones?</h3>
+   <input type="radio" name="question1" value="Jaime Lannister" id="mc"> Jaime Lannister<br>
+   <input type="radio" name="question1" value="Oberyn Martell" id="mc"> Oberyn Martell<br>
+   <input type="radio" name="question1" value="Sandor Clegane" id="mc"> Sandor Clegane<br>
+   <input type="radio" name="question1" value="Gregor Clegane" id="mc"> Gregor Clegane<br>
+
+   <h3>2. In which band was Freddie Mercury the lead singer?</h3>
+   <input type="radio" name="question2" value="Poison" id="mc"> Poison<br>
+   <input type="radio" name="question2" value="Queen" id="mc"> Queen<br>
+   <input type="radio" name="question2" value="Led Zeppelin" id="mc"> Led Zeppelin<br>
+   <input type="radio" name="question2" value="Destiny's Child" id="mc"> Destiny's Child<br>
+
+   <h3>3. In baseball, every time a team scores they are awarded one of the following:</h3>
+   <input type="radio" name="question3" value="Point" id="mc"> Point<br>
+   <input type="radio" name="question3" value="Tally" id="mc"> Tally<br>
+   <input type="radio" name="question3" value="Run" id="mc"> Run<br>
+   <input type="radio" name="question3" value="Schrute Buck" id="mc"> Schrute Buck<br> 
+   <br>
+   <input id="button" input type="submit" value="Submit Answers" onclick = "checker();">
+  </form>
+</div>
+
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
